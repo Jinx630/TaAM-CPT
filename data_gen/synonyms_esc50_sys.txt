@@ -1,0 +1,100 @@
+{'crow', 'raven', 'corvid'}
+{'can opening', 'uncap'}
+{'vacuum cleaner', 'cleaner'}
+{'train', 'railway', 'rail way', 'railroad', 'metro', 'subway'}
+{'keyboard', 'typing board', 'keyboard typing', 'typing', 'keypad'}
+{'footsteps', 'footstep', 'walk'}
+{'pig', 'swine', 'hog', 'porcine', 'sow', 'boar', 'piglet'}
+{'pouring water', 'pour water'}
+{'clapping', 'clap', 'applaud', 'ovation'}
+{'wind', 'breeze', 'gust', 'airflow'}
+{'engine'}
+{'aeroplane', "air craft", "jet", "plane", "air plane", "airplane", 'aircraft', 'airliner', 'aviator'}
+{'door wood knock', 'knock door', 'knock'}
+{'clock alarm', 'alarm'}
+{'sheep', 'lamb', 'ewe', 'ram'}
+{'crying baby', 'baby cry', 'baby'}
+{'glass breaking', 'glass break', 'break glass'}
+{'insects', 'insect', 'bug', 'bee', 'beetle'}
+{'chainsaw', 'chain saw', 'power saw'}
+{'rooster', 'cockerel', 'cock', 'male chicken'}
+{'brushing teeth', 'brush teeth'}
+{'crickets', 'cricket'}
+{'frog', 'toad', 'bullfrog'}
+{'cow', 'bovine', 'cattle'}
+{'hand saw', 'manual saw'}
+{'coughing', 'cough'}
+{'car horn', 'horn'}
+{'breathing', 'breath'}
+{'clock tick', 'tick'}
+{'siren', 'alert'}
+{'water drops', 'water drop'}
+{'dog', 'pup', 'puppy', 'doggy', 'bark', 'hound', 'pooch'}
+{'church bells', 'bell'}
+{'washing machine', 'washing machine'}
+{'sneezing', 'sternutation', 'sneeze'}
+{'crackling fire', 'fire'}
+{'cat', 'kitty', 'tomcat', 'tabby'}
+{'mouse click', 'click'}
+{'hen'}
+{'snoring', 'snore', 'grunting'}
+{'sea waves', 'wave'}
+{'helicopter', 'chopper', 'copter', 'rotorcraft'}
+{'toilet flush', 'flush'}
+{'chirping birds', 'bird'}
+{'fireworks', 'firework', 'pyrotechnic', 'firecracker'}
+{'door wood creaks', 'wood door'}
+{'drinking sipping', 'sip'}
+{'rain', 'rainfall', 'drizzle'}
+{'laughing', 'laugh'}
+{'thunderstorm', 'storm', 'thunder'}
+{'person', 'human', 'people', 'man', 'woman', 'family','boy', 'girl', 'passenger', 'child', 'adult', 'elderly', 'youth', 'citizen', 'individual', 'worker', 'student', 'teacher', 'doctor', 'engineer', 'scientist', 'artist', 'athlete', 'musician', 'actor', 'actress', 'performer', 'customer', 'tourist', 'resident', 'family', 'friend', 'neighbor', 'stranger', 'colleague', 'boss', 'employee', 'team member', 'leader', 'voter', 'patient', 'passerby', 'pedestrian', 'commuter', 'shopper', 'traveler', 'pilgrim', 'bystander', 'singer', 'dancer', 'chef', 'waiter', 'waitress', 'bartender', 'nurse', 'lawyer', 'judge', 'policeman', 'policewoman', 'firefighter', 'soldier', 'veteran', 'ambassador', 'diplomat', 'journalist', 'reporter', 'photographer', 'writer', 'author},
+{'bicycle', 'bike', 'cycle},
+{'car', 'taxi', 'auto', 'automobile', 'motor car}, 
+{'bus', 'autobus', 'coach', 'charabanc', 'double decker', 'jitney', 'motor bus', 'motor coach', 'omnibus},
+{'truck},
+{'boat', 'raft', 'dinghy},
+{'traffic light},
+{'parking meter},
+{'bench},
+{'horse', 'colt', 'equus},
+{'elephant},
+{'zebra},
+{'giraffe', 'camelopard},
+{'backpack', 'back pack', 'knapsack', 'packsack', 'rucksack', 'haversack},
+{'umbrella},
+{'handbag', 'hand bag', 'pocketbook', 'purse', 'bag},
+{'tie', 'necktie},
+{'suitcase},
+{'frisbee},
+{'sports ball', 'sport ball', 'ball', 'football', 'soccer', 'tennis', 'basketball', 'baseball},
+{'kite},
+{'baseball bat', 'baseball game bat},
+{'skateboard},
+{'surfboard},
+{'bottle},
+{'wine glass', 'vino glass},
+{'cup},
+{'fork},
+{'knife},
+{'spoon},
+{'bowl},
+{'banana},
+{'apple},
+{'sandwich},
+{'carrot},
+{'hot dog},
+{'pizza},
+{'cake},
+{'chair', 'arm chair},
+{'couch', 'sofa},
+{'potted plant', 'house plant', 'bonsai', 'pot plant},
+{'bed},
+{'dining table', 'dinner table', 'table', 'din table}, 
+{'tv', 'tvmonitor', 'monitor', 'television', 'telly},
+{'laptop},
+{'cell phone', 'phone', 'mobile phone', 'telephone},
+{'book','magazine},
+{'vase', 'flower holder},
+{'scissors},
+{'teddy bear', 'teddy', 'teddie bear', 'toy bear},

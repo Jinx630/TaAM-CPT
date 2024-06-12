@@ -1,0 +1,158 @@
+{
+    "image_clip_ckpt_path": "pretrained_weights/laion-clip-vit-b-32/open_clip_pytorch_model.bin",
+    "video_clip_ckpt_path": "pretrained_weights/ViCLIP-B_InternVid-200M.pth",
+    "audio_clip_ckpt_path": "pretrained_weights/630k-audioset-best.pt",
+
+    "cache_file": "cache/train_new_label/test_01_k400_obj_esc50.pkl",
+
+    "si_directional": true,
+    "epoch": 10,
+    "verbose": true,
+
+    "video_lr": 1e-4,
+    "image_lr": 5e-2,
+    "audio_lr": 5e-2,
+
+    "use_local_prompt": false,
+
+    "use_video": true,
+    "use_image": true,
+    "use_audio": true,
+
+    "use_image_video_con": true,
+    "use_image_audio_con": false,
+    "use_video_audio_con": false,
+
+    "use_k400": true,
+    "use_k600": false,
+    "use_k700": false,
+
+    "use_coco": false,
+    "use_voc": false,
+    "use_nuswide": false,
+    "use_mini": false,
+    "use_obj": true,
+    "use_voc2012": false,
+
+    "use_esc50": true,
+    "use_us8k": false,
+
+    "dataset": {
+        "k400":{
+            "is_video_audio_image": "video",
+            "classname_synonyms": "xxx",
+            "object_categories": "xxx",
+            "use_synonyms": false,
+            "train_text_path": "training_data/k400_2_cyrax_10w.txt",
+            "test_file": "DATA/kinetics-dataset/k400/annotations/val.csv",
+            "video_file_path": "DATA/kinetics-dataset/k400/val/"
+        },
+        "k600":{
+            "is_video_audio_image": "video",
+            "classname_synonyms": "xxx",
+            "object_categories": "xxx",
+            "use_synonyms": false,
+            "train_text_path": "training_data/k600_2_cyrax_10w.txt",
+            "test_file": "DATA/kinetics-dataset/k600/annotations/val.csv",
+            "video_file_path": "DATA/kinetics-dataset/k600/val/"
+        },
+        "k700":{
+            "is_video_audio_image": "video",
+            "classname_synonyms": "xxx",
+            "object_categories": "xxx",
+            "use_synonyms": false,
+            "train_text_path": "training_data/k700_2_cyrax_10w.txt",
+            "test_file": "DATA/kinetics-dataset/k700-2020/annotations/val.csv",
+            "video_file_path": "DATA/kinetics-dataset/k700-2020/val/"
+        },
+        "coco":{
+            "is_video_audio_image": "image",
+            "classname_synonyms": "xxx",
+            "object_categories": "xxx",
+            "use_synonyms": false,
+            "train_text_path": "training_data/coco_caption_10w.txt",
+            "image_coco_root": "DATA/COCO/val2014",
+            "coco_ann_path": "DATA/COCO/annotations/instances_val2014.json"
+        },
+        "mini":{
+            "is_video_audio_image": "image",
+            "classname_synonyms": "xxx",
+            "object_categories": "xxx",
+            "use_synonyms": false,
+            "train_text_path": "training_data/train_mini_3_cyrax.txt",
+            "image_coco_root": "DATA/COCO/val2014",
+            "coco_ann_path": "DATA/COCO/annotations/instances_val2014.json"
+        },
+        "obj":{
+            "is_video_audio_image": "image",
+            "classname_synonyms": "xxx",
+            "object_categories": "xxx",
+            "use_synonyms": false,
+            "train_text_path": "training_data/train_obj_3_cyrax.txt",
+            "image_coco_root": "DATA/COCO/val2014",
+            "coco_ann_path": "DATA/COCO/annotations/instances_val2014.json"
+        },
+        "voc":{
+            "is_video_audio_image": "image",
+            "classname_synonyms": "xxx",
+            "object_categories": "xxx",
+            "use_synonyms": false,
+            "train_text_path": "training_data/coco_caption_10w.txt",
+            "image_coco_root": "DATA/COCO/val2014",
+            "coco_ann_path": "DATA/COCO/annotations/instances_val2014.json"
+        },
+        "nuswide":{
+            "is_video_audio_image": "image",
+            "classname_synonyms": "xxx",
+            "object_categories": "xxx",
+            "use_synonyms": false,
+            "train_text_path": "training_data/coco_caption_10w.txt",
+            "image_coco_root": "DATA/COCO/val2014",
+            "coco_ann_path": "DATA/COCO/annotations/instances_val2014.json"
+        },
+        "esc50":{
+            "is_video_audio_image": "audio",
+            "classname_synonyms": "xxx",
+            "object_categories": "xxx",
+            "use_synonyms": false,
+            "train_text_path": "training_data/train_esc_50_sys_cyrax.txt",
+            "dataset_dir": "DATA/ESC-50-master"
+        },
+        "us8k":{
+            "is_video_audio_image": "audio",
+            "classname_synonyms": "xxx",
+            "object_categories": "xxx",
+            "use_synonyms": false,
+            "train_text_path": "training_data/train_esc_50_sys_cyrax.txt",
+            "dataset_dir": "DATA/ESC-50-master"
+        }
+    },
+
+    "TRAINER" : {
+        "Caption" : {
+            "N_CTX" : 16,
+            "CTX_INIT" : "",
+            "CLASS_TOKEN_POSITION" : "end",
+            "CSC" : false,
+            "GL_merge_rate" : 0.5
+        }
+    },
+
+    "PromptLearner" : {
+    },
+
+    "TRAIN" : {
+        "IF_LEARN_SCALE" : false,
+        "IF_LEARN_spatial_SCALE" : false,
+        "spatial_SCALE_text" : 50,
+        "spatial_SCALE_image" : 50
+    },
+
+    "INPUT" : {
+        "SIZE" : [224, 224],
+        "PIXEL_MEAN" : [0.48145466, 0.4578275, 0.40821073],
+        "PIXEL_STD" : [0.26862954, 0.26130258, 0.27577711],
+        "random_resized_crop_scale" : [0.6, 1.0],
+        "cutout_proportion" : 0.4
+    }
+}

@@ -1,0 +1,7 @@
+# from .Caption_distill_double import load_clip_to_cpu, DenseCLIP
+# from .Caption_distill_double_skip_te import DenseCLIP_skip_te
+# from .Caption_distill_double_skip_te_modified import DenseCLIP_skip_te_modified
+# from .Caption_distill_double_skip_te_modified_video import DenseCLIP_skip_te_modified_video
+# from .Caption_distill_double_skip_te_modified_video_clip import DenseCLIP_skip_te_modified_video_clip
+# from .Caption_distill_double_with_CLAP import load_clap_to_cpu, DenseCLAP_skip_te_modified
+from .Caption_multimodal_clip import DenseCLIP_multimodal_clip
